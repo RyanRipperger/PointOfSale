@@ -11,19 +11,13 @@ function addItem()
   {
      alert("Enter price as a number");
   }else{
-     alert("suuuh dude");
-  }
-  /*else
-  {
     newItem = number(newItem);
-    var dollars;
-    dollars = asCurrency(runningTotal);
     runningTotal = runningTotal + newItem;
-    document.getElementById("subtotal").innerHTML(dollars);
-    document.getElementById("price").innerHTML("");
-    getCookie("pretax") = runningTotal;
+    var dollars = asCurrency(runningTotal);
+    document.getElementById("subtotal").innerHTML = "dollars";
+    document.getElementById("price").value = " ";
+    getCookie(preTax) = runningTotal;
   }
-*/
   // update newItem to its value cast as a number
   // update runningTotal to be its value plus newItem
   // create a variable called dollars
